@@ -1,0 +1,56 @@
+.box{
+background-image: url('images/BACK.gif');
+margin: 10px 25px 10px 25px;
+overflow-y:auto;
+border: 1px solid black;
+}
+.htext{
+font-size: 45px;
+}
+.h1text{
+font-family: "Old English Text MT";
+font-size: 35px
+}
+.text4{
+padding:0 0 0 200px;
+}
+.text5{
+padding:0 0 0 600px;
+}
+.text1{
+font-size: 17px; 
+padding:0 0 0 180px;
+}
+.text2{ 
+font-size: 18px; 
+padding: 10px 0 0 180px;
+}
+.text3{
+font-size: 17px; 
+padding: 10px 0 0 180px;
+}
+#text7{
+	padding: 0 0 0 800px;
+}
+#text8{
+	padding: 10px 0 0 86px;
+}
+#text9{
+	padding: 0 0 8px 0;
+}
+hr{
+margin-top:0px;
+}
+.Rot{
+
+height: 100px;      
+-moz-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+-o-transform: rotate(270deg);
+-ms-transform: rotate(270deg);
+transform: rotate(270deg); 
+}
+.table{
+width: 100%;	
+border-collapse: collapse;
+}

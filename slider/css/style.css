@@ -1,0 +1,44 @@
+@font-face
+{
+font-family: Font;
+src: url('bluehighway.ttf');
+}
+*								{ margin: 0; padding: 0; }
+
+a:link							{ text-decoration: none; outline: none; color: #FFFFFF; }
+
+a img							{ border: none; }
+
+h2								{ font-family: "Font"; font-size: 44px; text-align: center; 
+								  font-weight: normal; margin: 0; color: #000;}
+
+#page-wrap{
+	background-image: linear-gradient(bottom, rgb(242,218,156) 39%, rgb(229,186,111) 72%);
+	background-image: -o-linear-gradient(bottom, rgb(242,218,156) 39%, rgb(229,186,111) 72%);
+	background-image: -moz-linear-gradient(bottom, rgb(242,218,156) 39%, rgb(229,186,111) 72%);
+	background-image: -webkit-linear-gradient(bottom, rgb(242,218,156) 39%, rgb(229,186,111) 72%);
+	background-image: -ms-linear-gradient(bottom, rgb(242,218,156) 39%, rgb(229,186,111) 72%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.39, rgb(242,218,156)),
+		color-stop(0.72, rgb(229,186,111))
+	);
+	width: 960px; margin: 0 auto; 
+	padding: 0; }
+
+#slider							{ height: auto; overflow: hidden;
+								  position: relative; margin: 0; }
+								  
+                                /* DEFAULT is for three panels in width, adjust as needed
+                                   This only matters if JS is OFF, otherwise JS sets this. */								  
+#mover							{ width: 2880px; position: relative; }
+
+.slide							{ margin-bottom: 80px; padding: 0 0 0 30px; width: 900px; float: left; position: relative; }
+.slide h1						{ font-family: "Font"; font-size: 30px; letter-spacing: -1px;
+								  color: #000; text-decoration: underline; margin: 12px 0 20px 0; }
+.slide p						{ color: #000; font-size: 18px; line-height: 22px; width: 300px; letter-spacing: -1px; font-family: "Font";}
+.slide img						{ position: absolute; top:0px; left: 380px; width:320px; height:225px}
+#slider-stopper					{ visibility: hidden; position: absolute; top: 1px; right: 20px; background: #ac0000; color: white;
+								  padding: 3px 8px; font-size: 10px; text-transform: uppercase; z-index: 1000; }
